@@ -275,5 +275,6 @@ sudo dnf install -y gcc make git ripgrep fd-find neovim
 
 #### Help
 
+This guide gives some info on lua in the context of nvim.
 [Help lua guide](https://neovim.io/doc/user/lua-guide.html)
 
