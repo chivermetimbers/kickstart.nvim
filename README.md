@@ -273,3 +273,7 @@ sudo dnf install -y gcc make git ripgrep fd-find neovim
 ```
 </details>
 
+#### Help
+
+[Help lua guide](https://neovim.io/doc/user/lua-guide.html)
+
