@@ -453,8 +453,9 @@ require('lazy').setup({
       end, { desc = '[S]earch [N]eovim files' })
 
       -- Shortcut for searching your dotfiles
+      -- NOTE: This shows files not in ~/.config for some reason
       vim.keymap.set('n', '<leader>sD', function()
-        builtin.find_files { cwd = '~/.config/'}
+        builtin.find_files { cwd = '~/.config/' }
       end, { desc = '[S]earch [D]otfiles' })
     end,
   },
